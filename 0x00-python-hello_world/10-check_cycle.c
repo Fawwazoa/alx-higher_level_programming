@@ -23,7 +23,7 @@ int check_cycle(listint_t *list)
 			while (1)
 			{
 				sl = fa;
-				while (fa->next != slow && fa->next != list)
+				while (fa->next != sl && fa->next != list)
 					fa = fa->next;
 				if (fa->next == list)
 					break;
