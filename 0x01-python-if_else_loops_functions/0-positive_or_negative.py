@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-# YOUR CODE HERE
-
 
 if (number > 0)
-    print(number + "is  poastive\n")
+    print(number, "is  poastive\n")
 elif (number < 0)
-    print(number + ' is nergatige\n')
+    print(number, ' is nergatige\n')
 else:
-    print(number + ' is zero\n')
+    print(number, ' is zero\n')
 
