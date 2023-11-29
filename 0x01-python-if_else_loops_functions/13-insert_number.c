@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
-* insert_node - inserts a new node at a given position
+* insert_node - inserts a new node at a position
 * @head: first element of the list
 * @number: index of the node we want to insert
 * Return: the value of a n node.
@@ -45,9 +45,9 @@ listint_t *insert_node(listint_t **head, int number)
 }
 
 /**
- * insert_nodeint_at_index - inserts a new node at a given position
+ * insert_nodeint_at_index - inserts a new node at position
  * @head: first element of the list
- * @idx: index of the node we want to insert
+ * @idx: index of the node 
  * @n: value of the node
  * Return: the value of a n node.
  */
